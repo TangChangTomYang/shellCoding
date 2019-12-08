@@ -1,0 +1,5 @@
+# 定义makefile 变量 
+OBJS=func1.o func2.o func3.o 
+OBJS+=main.o 
+CFLAGS=-Wall -c 
+CC=gcc
